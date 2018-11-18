@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style_sheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Griffy|Spicy+Rice" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <input placeholder="Enter an activity..." id="newNote">
+        <button id="addNewNoteButton">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path class="fill" d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" />
+                <path d="M0 0h24v24H0z" fill="none" /></svg>
+        </button>
+    </header>
+
+    <main>
+        <div class="container">
+            <!-- uncompleted -->
+            <ul class="all_Notes" id="todo"></ul>
+            <!-- completed -->
+            <ul class="all_Notes" id="completed">
+                <!-- <li>test
+                    <div class="buttons">
+                        <button class="remove">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path class = "fill"d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z" />
+                                <path d="M0 0h24v24H0z" fill="none" /></svg>
+
+                        </button>
+
+                        <button class="done">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path class = "fill" d="M0 0h24v24H0z" fill="none"/><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+
+                        </button>
+                    </div>
+                </li> -->
+            </ul>
+
+
+
+            
+        </div>
+    </main>
+
+
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
